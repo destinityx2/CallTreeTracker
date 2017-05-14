@@ -1,0 +1,282 @@
+[
+  {
+    "threadId": 10,
+    "callTree": [
+      {
+        "value": {
+          "methodName": "abc",
+          "arguments": [
+            "5"
+          ]
+        },
+        "children": [
+          {
+            "value": {
+              "methodName": "xyz",
+              "arguments": [
+                "2"
+              ]
+            },
+            "children": [
+              {
+                "value": {
+                  "methodName": "abc",
+                  "arguments": [
+                    "2"
+                  ]
+                },
+                "children": [
+                  {
+                    "value": {
+                      "methodName": "def",
+                      "arguments": [
+                        "5"
+                      ]
+                    },
+                    "children": [
+                      {
+                        "value": {
+                          "methodName": "abc",
+                          "arguments": [
+                            "0"
+                          ]
+                        },
+                        "children": [
+                          {
+                            "value": {
+                              "methodName": "def",
+                              "arguments": [
+                                "3"
+                              ]
+                            },
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "threadId": 11,
+    "callTree": [
+      {
+        "value": {
+          "methodName": "abc",
+          "arguments": [
+            "106"
+          ]
+        },
+        "children": [
+          {
+            "value": {
+              "methodName": "xyz",
+              "arguments": [
+                "107"
+              ]
+            },
+            "children": [
+              {
+                "value": {
+                  "methodName": "def",
+                  "arguments": [
+                    "100"
+                  ]
+                },
+                "children": [
+                  {
+                    "value": {
+                      "methodName": "abc",
+                      "arguments": [
+                        "102"
+                      ]
+                    },
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "threadId": 12,
+    "callTree": [
+      {
+        "value": {
+          "methodName": "abc",
+          "arguments": [
+            "200"
+          ]
+        },
+        "children": []
+      },
+      {
+        "value": {
+          "methodName": "abc",
+          "arguments": [
+            "302"
+          ]
+        },
+        "children": [
+          {
+            "value": {
+              "methodName": "xyz",
+              "arguments": [
+                "301"
+              ]
+            },
+            "children": []
+          }
+        ]
+      },
+      {
+        "value": {
+          "methodName": "abc",
+          "arguments": [
+            "400"
+          ]
+        },
+        "children": [
+          {
+            "value": {
+              "methodName": "def",
+              "arguments": [
+                "402"
+              ]
+            },
+            "children": [
+              {
+                "value": {
+                  "methodName": "abc",
+                  "arguments": [
+                    "400"
+                  ]
+                },
+                "children": [
+                  {
+                    "value": {
+                      "methodName": "xyz",
+                      "arguments": [
+                        "409"
+                      ]
+                    },
+                    "children": [
+                      {
+                        "value": {
+                          "methodName": "abc",
+                          "arguments": [
+                            "408"
+                          ]
+                        },
+                        "children": [
+                          {
+                            "value": {
+                              "methodName": "xyz",
+                              "arguments": [
+                                "407"
+                              ]
+                            },
+                            "children": [
+                              {
+                                "value": {
+                                  "methodName": "abc",
+                                  "arguments": [
+                                    "406"
+                                  ]
+                                },
+                                "children": [
+                                  {
+                                    "value": {
+                                      "methodName": "def",
+                                      "arguments": [
+                                        "402"
+                                      ]
+                                    },
+                                    "children": [
+                                      {
+                                        "value": {
+                                          "methodName": "xyz",
+                                          "arguments": [
+                                            "402"
+                                          ]
+                                        },
+                                        "children": [
+                                          {
+                                            "value": {
+                                              "methodName": "def",
+                                              "arguments": [
+                                                "401"
+                                              ]
+                                            },
+                                            "children": [
+                                              {
+                                                "value": {
+                                                  "methodName": "abc",
+                                                  "arguments": [
+                                                    "401"
+                                                  ]
+                                                },
+                                                "children": [
+                                                  {
+                                                    "value": {
+                                                      "methodName": "xyz",
+                                                      "arguments": [
+                                                        "401"
+                                                      ]
+                                                    },
+                                                    "children": [
+                                                      {
+                                                        "value": {
+                                                          "methodName": "def",
+                                                          "arguments": [
+                                                            "402"
+                                                          ]
+                                                        },
+                                                        "children": [
+                                                          {
+                                                            "value": {
+                                                              "methodName": "xyz",
+                                                              "arguments": [
+                                                                "406"
+                                                              ]
+                                                            },
+                                                            "children": []
+                                                          }
+                                                        ]
+                                                      }
+                                                    ]
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
