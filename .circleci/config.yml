@@ -36,8 +36,6 @@ workflows:
     jobs:
       - one:
         filters:
-          branches:
-            ignore: /.*/
           tags:
             only: 
               - /^.*/
