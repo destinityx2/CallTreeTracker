@@ -46,7 +46,7 @@ workflows:
       - one:
         filters:
           branches:
-            only: /^.*/
-          tags:
-            ignore: 
+            only: 
               - /^.*/
+          tags:
+            ignore: /^.*/
