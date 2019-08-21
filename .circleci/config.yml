@@ -35,6 +35,8 @@ workflows:
   one_and_two:
     jobs:
       - one
-      - two:
-          requires:
-            - one
+        filters:
+          branches:
+            ignore: /.*/
+          tags:
+            only: /.*/
