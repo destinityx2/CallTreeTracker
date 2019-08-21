@@ -37,16 +37,7 @@ workflows:
       - one:
         filters:
           branches:
-            ignore: /^.*/
+            ignore: /.*/
           tags:
             only: 
               - /^.*/
-  only_branches:
-    jobs:
-      - one:
-        filters:
-          branches:
-            only: 
-              - /^.*/
-          tags:
-            ignore: /^.*/
