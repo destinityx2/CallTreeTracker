@@ -32,11 +32,19 @@ jobs:
           fi
 workflows:
   version: 2
-  one_and_two:
+  only_tags:
     jobs:
-      - one
+      - one:
         filters:
           branches:
             ignore: /.*/
           tags:
             only: /.*/
+  only_branches:
+    jobs:
+      - one:
+        filters:
+          branches:
+            only: /.*/
+          tags:
+            ignore: /.*/
